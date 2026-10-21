@@ -1,0 +1,19 @@
+node_modules
+dist
+.smoke
+freebuff-sites-build/
+
+# Logs (build/smoke/dev/preview runs)
+*.log
+npm-debug.log*
+
+# Local secrets & env files
+.env
+.env.*
+
+# Local cloud-preview config (temporary preview hostname)
+vite.preview.config.js
+
+# Editor/OS cruft
+*.local
+.DS_Store

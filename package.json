@@ -1,0 +1,21 @@
+{
+  "name": "cartly",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cartly - a single-page e-commerce storefront with inventory management",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
